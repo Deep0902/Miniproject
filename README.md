@@ -1,4 +1,4 @@
-# Miniproject2Contactlist : [Click here](https://mini-project-2-contact-list.herokuapp.com/) to view the project
+# Miniproject2Contactlist : 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
 
