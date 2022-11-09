@@ -1,10 +1,3 @@
-// ============================================================================
-//    Author: Kenneth Perkins
-//    Date:   Dec 13, 2021
-//    Taken From: http://programmingnotes.org/
-//    File:  Loading.component.ts
-//    Description: Loading typescript
-// ============================================================================
 import { Component, OnInit } from '@angular/core';
 
 @Component({

@@ -1,10 +1,4 @@
-// ============================================================================
-//    Author: Kenneth Perkins
-//    Date:   Dec 13, 2021
-//    Taken From: http://programmingnotes.org/
-//    File:  contact-table.component.ts
-//    Description: Contact table typescript
-// ============================================================================
+
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Contact } from '../models/contact';
 

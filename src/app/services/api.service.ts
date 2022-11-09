@@ -1,10 +1,4 @@
-// ============================================================================
-//    Author: Kenneth Perkins
-//    Date:   Dec 13, 2021
-//    Taken From: http://programmingnotes.org/
-//    File:  api.service.ts
-//    Description: Service connecting to the api to retrieve contacts
-// ============================================================================
+
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Contact } from '../models/contact';

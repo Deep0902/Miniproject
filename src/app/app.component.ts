@@ -1,10 +1,4 @@
-// ============================================================================
-//    Author: Kenneth Perkins
-//    Date:   Dec 13, 2021
-//    Taken From: http://programmingnotes.org/
-//    File:  app.component.ts
-//    Description: App component typescript
-// ============================================================================
+
 import { Component, OnInit } from '@angular/core';
 import { ContactsApiService } from './services/api.service';
 import { Contact } from './models/contact';
