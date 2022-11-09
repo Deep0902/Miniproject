@@ -1,0 +1,21 @@
+/*
+// ============================================================================
+//    Author: Kenneth Perkins
+//    Date:   Dec 13, 2021
+//    Taken From: http://programmingnotes.org/
+//    File:  contact-form.component.css
+//    Description: Contact form css
+// ============================================================================ 
+*/
+form {
+    margin-bottom: 2rem;
+}
+[class*='-message'] {
+font-weight: 500;
+}
+.error-message {
+color: #d33c40;
+}
+.success-message {
+color: #32a95d;
+}
