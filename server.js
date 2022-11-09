@@ -6,11 +6,11 @@ const app = express();
  
 // Serve only the static files form the dist directory
 // Replace the '/dist/<to_your_project_name>'
-app.use(express.static(__dirname + '/dist/LTI-Miniproject-Contact-List'));
+app.use(express.static(__dirname + '/dist/Miniproject'));
  
 app.get('*', function(req,res) {
-  // Replace the '/dist/LTI-Miniproject-Contact-List/index.html'
-  res.sendFile(path.join(__dirname + '/dist/LTI-Miniproject-Contact-List/index.html'));
+  // Replace the '/dist/Miniproject/index.html'
+  res.sendFile(path.join(__dirname + '/dist/Miniproject/index.html'));
 });
 // Start the app by listening on the default Heroku port
 app.listen(process.env.PORT || 8080);

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "LTI-Miniproject-Contact-List": {
+    "Miniproject": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/LTI-Miniproject-Contact-List",
+            "outputPath": "dist/Miniproject",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "LTI-Miniproject-Contact-List:build:production"
+              "browserTarget": "Miniproject:build:production"
             },
             "development": {
-              "browserTarget": "LTI-Miniproject-Contact-List:build:development"
+              "browserTarget": "Miniproject:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "LTI-Miniproject-Contact-List:build"
+            "browserTarget": "Miniproject:build"
           }
         },
         "test": {
